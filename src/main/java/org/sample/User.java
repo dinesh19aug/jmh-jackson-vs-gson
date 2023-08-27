@@ -8,6 +8,7 @@ public class User
     private String lastName;
     private Address address;
     private List<Hobby> hobbies;
+    private String iMayHaveToRollback;
 
     public String getFirstName() {
         return firstName;
